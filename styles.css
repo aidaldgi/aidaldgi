@@ -1,0 +1,68 @@
+h1 {
+	text-align: center;
+  text-decoration: underline;
+	color: #F00;
+	opacity: 1;
+	font: 600 80px 'Bitter';
+}
+
+h2 {
+  color:green;
+  text-decoration-style: wavy;
+  text-align: center;
+  font-family: luminari,fantasy,cursive;
+}
+
+body{
+  background-image: url(https://d1ic4altzx8ueg.cloudfront.net/finder-au/wp-uploads/2018/07/multiplafet.jpg);
+}
+
+a {
+  color: black;
+}
+.car1{
+top: auto
+float:left;
+}
+
+.car2{
+  top: inherit;
+  float:right;
+}
+
+.rectangle4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.rectangle5{
+  width: inherit;
+}
+
+.image5{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items:flex-start;
+
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image1 { flex: 1.3344;
+}
+
+.image2 { flex: 1.3345;
+}
+
+.image4 {
+width:620px;
+height:465px;
+ }
